@@ -1,0 +1,73 @@
+.row-header{
+	margin: 0px auto;
+	padding: 0px auto;
+}
+.row-content{
+	margin: 0px auto;
+	padding: 50px 50px 50px 50px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+.footer{
+	background-color: #D1C4E9;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background-color: #9575CD;
+	color: floralwhite;
+}
+
+.address{
+	font-size: 80%;
+	margin: 0px auto;
+	color: #0f0f0f;
+}
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #512DA8;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#951c49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-toggle .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#collasable-nav a span{
+		font-size: 1em;
+	}
+
+}

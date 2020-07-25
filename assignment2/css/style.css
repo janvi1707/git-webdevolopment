@@ -1,0 +1,130 @@
+body{
+	font-size: 18px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: oxygen;
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 10px;
+}
+.navbar-brand{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.navbar-brand h1{
+	font-family: lora;
+	color: #557c3e;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	padding-left: 10px;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#951c49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-toggle .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+.body-heading{
+	position: relative;
+	font-family: lora;
+	color: yellow;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	padding-left: 10px;
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+	.outer{
+		border: 1px solid black;
+	    background-color: lightgrey;
+	    height: 150;
+	    font-family: calibri;
+	    margin-right: auto;
+	    marker-left: auto; 
+	    color: black;
+	    font-weight: bold;
+	    padding: 0;	
+	    margin: 20px;
+	    position: relative;
+	    text-align: center;
+    
+	}
+ 
+	.inner {
+	width: 100%;
+	height: 33px;
+	margin: 0 ;
+	padding: 0;
+	margin-right: auto;
+    marker-left: auto;
+	font-family: calibri;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: center;
+	position: relative;
+	}
+	.sp{
+		margin-top: 40px;
+		margin-right:2px;
+		margin-left: 2px;
+	}
+	@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#collasable-nav a span{
+		font-size: 1em;
+	}	
+
+}
